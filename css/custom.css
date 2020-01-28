@@ -68,3 +68,53 @@
   .carousel-control-next .fa{
     margin-left: 1.5rem;
   }
+
+  /* Services */
+
+  /* .service-content{
+    background-color: rgba(18, 130, 184, 0.1);
+  } */
+.service-content .col{
+  padding-left: 3px;
+  padding-right: 3px;;
+}
+
+.service-content .service-item {
+  /* background-color: rgb(255, 255, 255);
+  padding: 25px 30px;
+  text-align: center;
+  color: #5d5d5d;
+  margin-bottom: 30px; */
+  position: relative;
+}
+
+.service-item .face{
+  transition: all .5s;
+  height: 200px;
+}
+
+.service-item .face.face-1{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  transform: translateY(100px);
+  z-index: 2;
+}
+
+.service-item .face.face-2{
+  position: relative;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  box-shadow: 0 0 32px rgba(0,0,0,0.20);
+  transform: translateY(-100px);
+  z-index: 1;
+}
+
+.service-item:hover .face.face-1, .service-item:hover .face.face-2{
+  transform: translateY(0);
+}
