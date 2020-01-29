@@ -19,7 +19,7 @@ body {
   font-size: 14px;
 }
 
-a { color: #0074ad; }
+a { color: #8a8a8a; }
 
 a:hover { color: #ffb40a; }
 
@@ -56,6 +56,7 @@ a:hover { color: #ffb40a; }
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 600;
+    color: rgba(0, 116, 173, 0.7);
   }
 }
 
@@ -198,7 +199,8 @@ a:hover { color: #ffb40a; }
 }
 
 .top-navbar h4{
-  color: #0074ad;
+  color: #525252;
+  /* color: rgba(0, 116, 173, 0.7); */
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 600;
@@ -309,7 +311,7 @@ a:hover { color: #ffb40a; }
   min-height: 100vh;
   background-size: cover;
   background-position: center center;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(169, 169, 169, 0.25);
 }
 
 .service-content .left-text h4 {
@@ -423,7 +425,7 @@ h4, .h4 {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 8vh;
-  background-image: url(../img/4th-section.jpg);
+  background-image: url(../img/about-sec-1.jpg);
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
