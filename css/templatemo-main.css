@@ -17,6 +17,7 @@ section {
 body { 
   position: relative; /* we need this for the scrollspy */ 
   font-size: 14px;
+  margin-top: -155px;
 }
 
 a { color: #8a8a8a; }
@@ -155,7 +156,7 @@ a:hover { color: #ffb40a; }
 
 .primary-button a {
   display: inline-block;
-  background-color: #ff7d27;
+  background-color: #0074ad;
   padding: 15px 24px;
   border-radius: 3px;
   text-transform: uppercase;
@@ -208,7 +209,7 @@ a:hover { color: #ffb40a; }
 
 .baner-content .carousel-caption{
   right: auto;
-  bottom: 25%;
+  bottom: 8%;
   left: 0;
   width: 40vw;
   min-height: 50%;
@@ -370,8 +371,17 @@ h4, .h4 {
 
 
 .projects-content {
-  padding-top: 20vh;
-  background-image: url(../img/3rd-section.jpg);
+  padding-top: 15vh;
+  /* background-image: url(../img/3rd-section.jpg); */
+  background-color: #dfdfdf;
+}
+
+.projects-content .heading-para{
+  font-size: 3rem;
+  padding: 0 11rem;
+  line-height: 1;
+  margin-bottom: 3rem;
+  color: #525252;
 }
 
 .projects-content .item img {
@@ -386,6 +396,7 @@ h4, .h4 {
   background-color: #fff;
   text-align: center;
   padding: 20px;
+  display: none;
 }
 
 .projects-content .item .text-content h4 {
@@ -402,7 +413,7 @@ h4, .h4 {
 }
 
 .owl-pagination {
-  margin-top: 40px;
+  margin-top: 25px;
   opacity: 1;
   display: inline-block;
 }
@@ -536,7 +547,7 @@ section {
 
 #contact button {
   display: inline-block;
-  background-color: #ff7d27;
+  background-color: #0074ad;
   padding: 15px 24px;
   width: 100%;
   border-radius: 3px;
@@ -584,7 +595,7 @@ footer ul li a {
   line-height: 40px;
   text-align: center;
   display: inline-block;
-  background-color: #ff7d27;
+  background-color: #0074ad;
   color: #282b2f;
   border-radius: 50%;
   text-decoration: none;
@@ -594,7 +605,7 @@ footer ul li a {
 
 footer ul li a:hover {
   color: #282b2f;
-  background-color: #ff8e43;
+  background-color: #ffeb00;
 }
 
 footer p {
